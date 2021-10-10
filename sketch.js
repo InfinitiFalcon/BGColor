@@ -10,10 +10,9 @@ function setup() {
   btn_red = createButton("RED");
   btn_red.position(100, 50)
   btn_red.mousePressed(redBG)
-  btn_red = createButton("GREEN");
-  btn_red.position(250, 50)
-  btn_red.mousePressed(greenBG)
-
+  btn_green = createButton("GREEN");
+  btn_green.position(250, 50)
+  btn_green.mousePressed(greenBG)
 }
 
 function draw() {
@@ -27,9 +26,10 @@ function redBG()
   b = 0
 }
 
-function redBG()
+function greenBG()
 {
   r = 0
   g = 255
+  b = 0
 }
 
